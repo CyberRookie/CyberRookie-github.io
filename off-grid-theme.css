@@ -1,0 +1,111 @@
+/*11/27/21 Taken from the FacebookTemplate style sheets 
+The theme-l5 is the body class in the html file*/
+
+.off-grid-theme-l5 {
+    color: #000 !important;
+    background-color: #b39f00 !important
+}
+
+.off-grid-theme-l4 {
+    color: #000 !important;
+    background-color: #949e35 !important
+}
+
+.off-grid-theme-l3 {
+    color: #000 !important;
+    background-color: #56aa25 !important
+}
+
+.off-grid-theme-l2 {
+    color: #000 !important;
+    background-color: #79d127 !important
+}
+
+
+/* The div that has My Groups, My Events, My Photos on left side
+color changes the text color in the div*/
+
+.off-grid-theme-l1 {
+    color: rgb(26, 24, 24) !important;
+    background-color: #868f08 !important
+}
+
+
+/* This div is */
+
+.w3-theme-d1 {
+    color: #fff !important;
+    background-color: #558199 !important
+}
+
+
+/* This class sets background color of the navigation bar across the top */
+
+.w3-theme-d2 {
+    color: rgb(255, 255, 255) !important;
+    background-color: #537417 !important
+}
+
+
+/* This class sets background color of the footer bar across the
+bottom */
+
+.w3-theme-d3 {
+    color: #fff !important;
+    background-color: #537417 !important
+}
+
+
+/*Div class for background colors-Home logo
+Changed color from #fff to black rgb(10, 10, 10)  */
+
+.w3-theme-d4 {
+    color: rgb(10, 10, 10) !important;
+    background-color: #537417 !important
+}
+
+.w3-theme-d5 {
+    color: #fff !important;
+    background-color: #303e45 !important
+}
+
+.w3-theme-light {
+    color: #000 !important;
+    background-color: #f5f7f8 !important
+}
+
+.w3-theme-dark {
+    color: #fff !important;
+    background-color: #303e45 !important
+}
+
+.w3-theme-action {
+    color: #fff !important;
+    background-color: #303e45 !important
+}
+
+.w3-theme {
+    color: #fff !important;
+    background-color: #607d8b !important
+}
+
+.w3-text-theme {
+    color: #607d8b !important
+}
+
+.w3-border-theme {
+    border-color: #607d8b !important
+}
+
+.w3-hover-theme:hover {
+    color: #fff !important;
+    background-color: #607d8b !important
+}
+
+.w3-hover-text-theme:hover {
+    color: #607d8b !important
+}
+
+.w3-hover-border-theme:hover {
+    border-color: #607d8b !important
+}

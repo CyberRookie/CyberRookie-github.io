@@ -9,6 +9,8 @@
         Bootstrap CSS
      -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" />
     <!-- 
          Making a responsive Layout for Mobile devices - CSS works top to bottom!
         Put in container: .container iframe{
@@ -44,8 +46,11 @@
         
         #nav {
             flex-basis: 100%;
+            display: flex;
             /* Keep Position relative */
-            position: relative;
+            /* position: relative; */
+            justify-content: center;
+            flex-direction: row;
             border-bottom: 5px solid #b39f00;
             padding: 20px;
             background-color: #7d6f00;
@@ -72,8 +77,10 @@
             padding: 5px;
             margin: 5px;
             flex-basis: 50%;
+            max-width: 75px;
             /* position: sticky; */
             position: sticky;
+            text-align: center;
             /*   display: inline-block; */
         }
         /*        */
@@ -90,7 +97,7 @@
         a {
             background-color: rgb(38, 82, 82);
             display: inline-block;
-            padding: 5px 15px;
+            padding: 5px 10px;
             color: cornflowerblue;
             text-decoration: none;
             border: 2px solid #94b300;
@@ -100,7 +107,7 @@
         a:hover {
             background-color: #b39f00;
             color: azure;
-            padding: 5px 10px;
+            padding: 5px 15px;
         }
         /* For mobile devices */
         
